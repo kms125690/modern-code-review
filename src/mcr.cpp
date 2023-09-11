@@ -4,6 +4,12 @@
 
 // Testing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+bool isValid(int x){
+    return x >= 0 && x <= 2;
+}
+
+// Test2
+
 bool isWin(char game[3][3]){
 	bool win = false;
 	if (game[0][0] == game[0][1] && game[0][1] == game[0][2] && (game[0][0] == 'X' || game[0][0] == 'O')) win = true;
@@ -19,7 +25,7 @@ bool isWin(char game[3][3]){
 	return win;
 }
 
-int  main(){
+int main(){
 	int i, j;
 	char game[3][3] = {' '}; // Tic-tac-toe
 	char player1 = 'X';
