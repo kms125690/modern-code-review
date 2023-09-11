@@ -3,9 +3,12 @@
 #include <string>
 
 // Testing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 bool isValid(int x){
     return x >= 0 && x <= 2;
 }
+
+// Test2
 
 bool isWin(char game[3][3]){
 	bool win = false;
