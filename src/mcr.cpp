@@ -3,6 +3,9 @@
 #include <string>
 
 // Testing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+bool isValid(int x){
+    return x >= 0 && x <= 2;
+}
 
 bool isWin(char game[3][3]){
 	bool win = false;
@@ -19,7 +22,7 @@ bool isWin(char game[3][3]){
 	return win;
 }
 
-int  main(){
+int main(){
 	int i, j;
 	char game[3][3] = {' '}; // Tic-tac-toe
 	char player1 = 'X';
